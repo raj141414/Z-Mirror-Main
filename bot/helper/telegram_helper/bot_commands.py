@@ -40,5 +40,7 @@ class _BotCommands:
         self.CategorySelect     = f'catsel{CMD_SUFFIX}'
         self.RmdbCommand        = f'rmdb{CMD_SUFFIX}'
         self.RmalltokensCommand = f'rmat{CMD_SUFFIX}'
+        self.MLocalUploadCommand = f'mupload{CMD_SUFFIX}'
+        self.LLocalUploadCommand = f'lupload{CMD_SUFFIX}'
 
 BotCommands = _BotCommands()
