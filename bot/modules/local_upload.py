@@ -50,5 +50,5 @@ async def leech_upload(_, message: Message):
     _upload(message, True)
 
 
-bot.add_handler(MessageHandler(mirror_upload, filters=command(BotCommands.MLocalUploadCommand) & CustomFilters.owner))
-bot.add_handler(MessageHandler(leech_upload, filters=command(BotCommands.LLocalUploadCommand) & CustomFilters.owner))
+bot.add_handler(MessageHandler(mirror_upload, filters=command(BotCommands.MLocalUploadCommand) & CustomFilters.authorized))
+bot.add_handler(MessageHandler(leech_upload, filters=command(BotCommands.LLocalUploadCommand) & CustomFilters.authorized))
