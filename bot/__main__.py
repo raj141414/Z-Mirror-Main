@@ -26,7 +26,7 @@ from .helper.telegram_helper.message_utils import editMessage, sendFile, sendMes
 from .modules import (anonymous, authorize, bot_settings, cancel_mirror,
                       category_select, clone, eval, gd_count, gd_delete,
                       gd_search, leech_del, mirror_leech, rmdb, rss,
-                      shell, status, torrent_search,
+                      shell, status, torrent_search, local_upload,
                       torrent_select, users_settings, ytdlp)
 
 
